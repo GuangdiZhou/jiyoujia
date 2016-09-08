@@ -1,0 +1,147 @@
+.nav {
+  width: 1190px;
+  height: 42px;
+  background-color: #f5f5f5;
+  border: 1px solid #e8e8e8;
+  font-family: Microsoft YaHei;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.nav>ul>li:not(.ipt) {
+  float: left;
+  font-size: 12px;
+  padding: 14px 20px;
+  border-right: 1px solid #e8e8e8;
+}
+.nav>ul>li:not(.ipt):hover {
+  background-color: #fff;
+  font-family: Microsoft YaHei;
+  color: #f50;
+}
+.nav>ul .ipt {
+  float: left;
+  font-size: 12px;
+  padding: 8px 10px;
+  border-right: 1px solid #e8e8e8;
+}
+.nav>ul .ipt>input {
+  folat: left;
+  width: 58px;
+  height: 23px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  color: #808080;
+}
+.nav>ul .ipt .btn {
+  text-align: center;
+  color: #fff;
+  border-radius: 3pxp;
+  width: 40px;
+  height: 23px;
+  background-color: #000;
+  cursor: pointer;
+}
+.nav>ul .ipt .btn:hover {
+  background-color: #f82800;
+}
+.nav .locate {
+  float: left;
+  width: 50px;
+  height: 12px;
+  margin: 14px 20px;
+  font-size: 12px;
+}
+.nav .locate img {
+  float: right;
+}
+.nav .page {
+  float: right;
+  width: 117px;
+  height: 40px;
+  border-left: 1px solid #e8e8e8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 12px;
+  user-select: none;
+}
+.box {
+  width: 1210px;
+  margin: 0 auto;
+  height: 800px;
+}
+.box>div {
+  float: left;
+  width: 222px;
+  height: 358px;
+  border: 1px solid #e8e8e8;
+  margin: 30px 10px 0 10px;
+}
+.box>div>a {
+  display: block;
+  width: 220px;
+  height: 220px;
+  background-size: 220px 220px;
+}
+.box>div .price {
+  float: left;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 14px 0 14px 10px;
+}
+.box>div .baoyou {
+  float: left;
+  display: block;
+  width: 28px;
+  height: 14px;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 14px 0;
+  background-color: #f40;
+  line-height: 13px;
+  padding: 1px 2px;
+  color: #fff;
+}
+.box>div .name {
+  display: block;
+  width: 200px;
+  margin-left: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 12px;
+}
+.box>div .sold {
+  display: block;
+  margin: 12px 10px;
+  font-size: 12px;
+  color: #9a9a9a;
+}
+.box>div .owner {
+  float: left;
+  display: block;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #9a9a9a;
+}
+.box>div .location {
+  float: right;
+  display: block;
+  margin-right: 10px;
+  font-size: 12px;
+  color: #9a9a9a;
+}
+.box>div .pic {
+  float: left;
+  width: 200px;
+  height: 16px;
+  margin: 8px 0 0 10px;
+}
+.box>div .pic .jin {
+  float: left;
+  display: block;
+}
+.box>div .pic .wang {
+  float: right;
+  display: block;
+}
